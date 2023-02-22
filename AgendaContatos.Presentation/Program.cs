@@ -1,5 +1,5 @@
+using AgendaContatos.Presentation;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using SistemaContas.Presentation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,7 +31,7 @@ app.UseMiddleware<CacheControl>();
 
 //ativando as configurações
 app.UseCookiePolicy();
-app.UseAuthorization();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

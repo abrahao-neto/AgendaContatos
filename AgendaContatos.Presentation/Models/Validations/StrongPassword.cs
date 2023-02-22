@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace SistemaContas.Presentation.Models.Validations
+namespace AgendaContatos.Presentation.Models.Validations
 {
     /// <summary>
     /// Validação customizada para campo de senha forte

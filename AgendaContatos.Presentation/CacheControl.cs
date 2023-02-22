@@ -1,4 +1,4 @@
-﻿namespace SistemaContas.Presentation
+﻿namespace AgendaContatos.Presentation
 {
     /// <summary>
     /// Classe para controle de cache do AspNet MVC

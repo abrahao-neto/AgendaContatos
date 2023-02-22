@@ -1,4 +1,4 @@
-﻿using SistemaContas.Presentation.Models.Validations;
+﻿using AgendaContatos.Presentation.Models.Validations;
 using System.ComponentModel.DataAnnotations;
 
 namespace AgendaContatos.Presentation.Models
